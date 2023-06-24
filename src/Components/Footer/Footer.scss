@@ -1,0 +1,33 @@
+@import "../../css-config/mixins.scss";
+
+.footer-wrapper {
+  background: #404f6c;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 0;
+  margin-top: 35px;
+  @include md {
+    margin-top: -39px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    .text {
+      display: flex;
+      flex-direction: column;
+      span {
+        color: #61759e;
+        font-size: 1rem;
+      }
+    }
+  }
+  .copyright {
+    font-size: 0.7rem;
+    color: #61759e;
+    @include md {
+      font-size: 1rem;
+    }
+  }
+}

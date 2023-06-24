@@ -1,0 +1,20 @@
+[
+  {
+    "image": "../assets/carousel1.png"
+  },
+  {
+    "image": "../assets/carousel2.png"
+  },
+  {
+    "image": ".carousel1.png"
+  },
+  {
+    "image": ".carousel2.png"
+  },
+  {
+    "image": ".carousel1.png"
+  },
+  {
+    "image": ".carousel2.png"
+  }
+]

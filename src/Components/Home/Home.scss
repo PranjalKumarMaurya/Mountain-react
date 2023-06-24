@@ -1,0 +1,23 @@
+@import "../../css-config/mixins.scss";
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .title1 {
+    font-size: 12vw;
+    color: #4d4d4d;
+    @include md {
+      margin-top: -10rem;
+      font-size: 8vw;
+    }
+  }
+  .title2 {
+    font-size: 12vw;
+    color: #404f6c;
+    @include md {
+      font-size: 8vw;
+    }
+  }
+}
